@@ -1,0 +1,38 @@
+# Python and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Local configuration, secrets, and credential material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Local runtime data, snapshots and caches
+.cache/
+.local/
+runtime-data/
+plugin-data/
+*.db
+*.sqlite
+*.sqlite3
+
+# System/editor files
+.DS_Store
+.idea/
+.vscode/
