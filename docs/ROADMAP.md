@@ -2,11 +2,15 @@
 
 This is a **public, sanitised plan**. It does not copy the private source repository, issue discussion, or Git history.
 
+## Next milestone
+
+Run the [disposable Hermes recovery test](https://github.com/Noclasss/project-pilot/issues/3) on one identified candidate. Use that installation to [exercise repository scope](https://github.com/Noclasss/project-pilot/issues/7) and [resume a project goal from a checkpoint](https://github.com/Noclasss/project-pilot/issues/6). Record the candidate revision, Hermes version, observed results and outstanding checks together so another session can reproduce them. The demonstration can run before public release.
+
 ## Phase 0 — Establish a public project home
 
 - [x] Create the public repository.
 - [x] Publish an honest pre-release README.
-- [ ] Maintain a public, sanitised issue backlog.
+- [x] Establish the [public issue backlog](https://github.com/Noclasss/project-pilot/issues).
 - [ ] Confirm contribution and licensing policy.
 
 ## Phase 1 — Make a release candidate eligible for publication
@@ -49,5 +53,11 @@ A useful Project Pilot must progress a real project, not only report status:
 5. A new session can recover context and continue without inventing previous success.
 
 Delegation and autonomous dispatch require their own tool boundaries and verification. They must not be enabled merely because offline planning tests pass.
+
+## Planned feature — cost-aware model selection
+
+The [Smart Model Router](https://github.com/Noclasss/project-pilot/issues/8) starts with an offline preview. For a bounded task, recommend the cheapest eligible configured model and explain the capability, privacy and cost checks behind the choice. Default additional paid API spend is £0. Fixtures should cover a local model outage, exhausted free quota and unknown pricing. Each case must produce an eligible route or an explicit reason to stop, with zero provider calls.
+
+Live routing and paid escalation require separate verification and owner authorisation. The preview can be developed independently of the first release.
 
 See [release gates](RELEASE-GATES.md) and [architecture](ARCHITECTURE.md).
